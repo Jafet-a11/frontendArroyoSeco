@@ -32,3 +32,5 @@ jobs:
         env:
           # El 'env:' va dentro del paso 'Run k6 cloud test'
           K6_CLOUD_TOKEN: ${{ secrets.K6_CLOUD_API_TOKEN }}
+
+          K6_CLOUD_PROJECT_ID: ${{ secrets.K6_CLOUD_PROJECT_ID }}
