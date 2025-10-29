@@ -19,7 +19,7 @@ jobs:
         uses: grafana/setup-k6-action@v1
         with:
           # Usa la última versión de k6
-          k6-version: latest
+          k6-version: 'v0.49.0'
 
       # 3. Ejecuta la prueba de k6
       - name: Run k6 cloud test
