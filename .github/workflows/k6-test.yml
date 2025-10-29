@@ -15,7 +15,7 @@ jobs:
 
       # 2. Ejecuta la acción oficial de K6
       - name: Run k6 cloud test
-        uses: grafana/k6-load-test@v0
+        uses: grafana/k6-action@v0
         with:
           # ¡IMPORTANTE! 
           # Cambia esto a la ruta y nombre exacto de tu script de K6
