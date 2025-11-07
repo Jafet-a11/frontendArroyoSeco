@@ -85,7 +85,6 @@ const ReservationDetailsModal = ({ isOpen, onClose, reservation, property }) => 
                                     {`${formatDate(reservation.startDate)} - ${formatDate(reservation.endDate)}`}
                                 </IonNote>
                             </IonItem>
-
                             <IonItem>
                                 <IonIcon icon={peopleOutline} slot="start" color="primary" />
                                 <IonLabel>Huéspedes</IonLabel>
